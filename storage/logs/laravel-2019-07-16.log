@@ -1,0 +1,84 @@
+[2019-07-16 16:46:07] local.ERROR: Class App\Room contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (App\Room::getBookingModel, App\Room::getRateModel, App\Room::getAvailabilityModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Room contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (App\\Room::getBookingModel, App\\Room::getRateModel, App\\Room::getAvailabilityModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Room.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 16:46:35] local.ERROR: Class App\Room contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (App\Room::getBookingModel, App\Room::getRateModel, App\Room::getAvailabilityModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Room contains 3 abstract methods and must therefore be declared abstract or implement the remaining methods (App\\Room::getBookingModel, App\\Room::getRateModel, App\\Room::getAvailabilityModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Room.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 16:50:07] local.ERROR: Class App\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Customer::getBookingModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\\Customer::getBookingModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Customer.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 16:57:09] local.ERROR: Class App\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Customer::getBookingModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\\Customer::getBookingModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Customer.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 17:00:45] local.ERROR: Class App\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Customer::getBookingModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\\Customer::getBookingModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Customer.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 17:07:01] local.ERROR: Class App\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Customer::getBookingModel) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Class App\\Customer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\\Customer::getBookingModel) at C:\\xampp\\htdocs\\camp-link.com\\app\\Customer.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-16 17:26:46] local.ERROR: Class 'Rinvex\Bookable\Providers\BookableServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Rinvex\\Bookable\\Providers\\BookableServiceProvider' not found at C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Rinvex\\\\Bookable...')
+#1 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\camp-link.com\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-16 17:27:03] local.ERROR: Class 'Rinvex\Bookable\Providers\BookableServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Rinvex\\Bookable\\Providers\\BookableServiceProvider' not found at C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Rinvex\\\\Bookable...')
+#1 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\camp-link.com\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-16 17:35:37] local.ERROR: Class 'Rinvex\Bookable\Providers\BookableServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Rinvex\\Bookable\\Providers\\BookableServiceProvider' not found at C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Rinvex\\\\Bookable...')
+#1 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\camp-link.com\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-16 17:36:11] local.ERROR: Class 'Rinvex\Bookable\Providers\BookableServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Rinvex\\Bookable\\Providers\\BookableServiceProvider' not found at C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Rinvex\\\\Bookable...')
+#1 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\camp-link.com\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-16 17:46:38] local.ERROR: Class 'Rinvex\Bookable\Providers\BookableServiceProvider' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class 'Rinvex\\Bookable\\Providers\\BookableServiceProvider' not found at C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Rinvex\\\\Bookable...')
+#1 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(584): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\xampp\\htdocs\\camp-link.com\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\xampp\\htdocs\\camp-link.com\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
