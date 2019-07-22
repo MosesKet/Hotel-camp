@@ -11,33 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-   return View::make('pages.home');
-});
-Route::get('contact', 'ContactUsController@contactUs');
-Route::post('contact', 'ContactUsController@contactUsPost')->name('contact.store');
-Route::get('about', function()
-{
-   return View::make('pages.about');
-});
-Route::get('gallery', function()
-{
-   return View::make('pages.gallery');
-});
-Route::get('reservation', function()
-{
-   return View::make('pages.booking');
-});
-Route::get('services', function()
-{
-   return View::make('pages.services');
-});
-Route::get('rooms', function()
-{
-   return View::make('pages.rooms');
-});
-Route::get('room-details', function()
-{
-   return View::make('pages.room');
+Route::get('/', function () {
+    return view('welcome');
 });

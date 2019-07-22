@@ -34,18 +34,4 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
-  'rinvex/laravel-bookings' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Rinvex\\Bookings\\Providers\\BookingsServiceProvider',
-    ),
-  ),
-  'spatie/laravel-schemaless-attributes' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Spatie\\SchemalessAttributes\\SchemalessAttributesServiceProvider',
-    ),
-  ),
 );
